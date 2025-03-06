@@ -29,7 +29,25 @@ NAN
 
 
 */
+let isPresent=true;
 
+if(isPresent) {
+  console.log("person is present");
+}
+
+else{
+  console.log("person is awey");
+}
+let closingHour=22;
+let timeNow=23;
+
+if(closingHour > timeNow) {
+  console.log("Shop is open");
+}
+
+else {
+  console.log("Shop is closed")
+}
 /*
 
 let isPresent = true
@@ -85,11 +103,22 @@ BONUS!
 
 4. lag en variabel for åpningstid og sjekk om tidspunktet er etter åpningstid OG før stengetid
 
-
-
 */
 //
 //
+
+let nyTid = 23;
+let stengeTid = 21;
+
+if(nyTid < stengeTid){
+ console.log("Buteken er open");
+}
+else{
+console.log("butiken er stenht");
+}
+
+
+
 
 // få inn verdier fra forms i Html
 
